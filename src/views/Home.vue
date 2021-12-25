@@ -6,6 +6,7 @@
     <stats :texts="texts" :numbers="numbers"/>
     <banner />
     <tabless />
+    <vfooter/>
   </div>
 </template>
 
@@ -16,6 +17,7 @@ import vimage from '../components/vimage.vue'
 import stats from '../components/stats.vue'
 import banner from '../components/banner.vue'
 import tabless from '../components/tabless.vue'
+import vfooter from '../components/vfooter.vue'
 export default {
   name: 'Home',
 
@@ -25,7 +27,8 @@ export default {
     vimage,
     stats,
     banner,
-    tabless
+    tabless,
+    vfooter
   },
   data () {
     return {

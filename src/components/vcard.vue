@@ -1,5 +1,5 @@
 <template>
-  <div class="card">
+  <div id="vcard" class="mt-5">
         <v-container>
            <v-row >
       <v-col
@@ -48,6 +48,7 @@
 </template>
 <script>
 export default {
+  name: 'vcard',
   props: {
     images: {
       type: Array
