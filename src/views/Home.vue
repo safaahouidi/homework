@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div style="background: #F4D9B8">
     <hero ></hero>
     <vcard :images="images"/>
     <vimage :imagess="imagess"/>
@@ -9,7 +9,6 @@
     <vfooter/>
   </div>
 </template>
-
 <script>
 import hero from '../components/hero.vue'
 import vcard from '../components/vcard.vue'

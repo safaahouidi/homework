@@ -7,7 +7,7 @@
        >
        <h5 class="text-center">this is banner
            <br>
-           <v-btn href="#">clickme</v-btn>
+           <v-btn href="#" style="background: #916947">clickme</v-btn>
        </h5>
 
        </v-banner>

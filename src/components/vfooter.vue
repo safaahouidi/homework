@@ -1,9 +1,9 @@
 <template>
   <v-footer padless>
     <v-col
-      class="text-center primary"
+      class="text-center  white--text"
       cols="12"
-      dark
+      style="background: #F4A460"
     >
       &copy;-2022
     </v-col>
